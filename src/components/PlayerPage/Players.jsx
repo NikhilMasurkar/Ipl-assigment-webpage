@@ -1,4 +1,4 @@
-import React, {useState}from "react";
+import React from "react";
 import "./Players.css";
 import Card from "../Card/Card";
 import Extra from "../OtherPlayer/Extra";
@@ -33,6 +33,7 @@ const Players = (props) => {
               />
             );
           }
+          return null;
         })}
       </ul>
       <ul className="extra-player-container">
@@ -52,6 +53,7 @@ const Players = (props) => {
               />
             );
           }
+          return null;
         })}
       </ul>
      
