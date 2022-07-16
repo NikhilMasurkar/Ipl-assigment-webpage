@@ -1,5 +1,5 @@
 import React from 'react'
-import match from '../../Assets/tt.jpeg'
+import match from '../../images/tt.jpeg'
 import './Schedule.css'
 
 const Schedule = () => {
