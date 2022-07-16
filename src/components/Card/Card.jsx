@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./card.css";
 
 const Card = (props) => {
-  const { background, image, name, role, matches, runs, wickets } = props;
-  const [properties, setProperties] = useState(props);
+  // const { background, image, name, role, matches, runs, wickets } = props;
+  const [properties] = useState(props);
 
   return (
     <li
